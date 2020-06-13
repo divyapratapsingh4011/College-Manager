@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "805623591160",
+    "firebase_url": "https://flutter-college-manager-cace7.firebaseio.com",
+    "project_id": "flutter-college-manager-cace7",
+    "storage_bucket": "flutter-college-manager-cace7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805623591160:android:da0419f620bdd2f7790b0d",
+        "android_client_info": {
+          "package_name": "com.devandro.college_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805623591160-td50po32p38vu3t95piiqqvrdcsoqi5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUu3M6yZUhnb_Y5oSm_0jQn1xA6fCrL_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805623591160-td50po32p38vu3t95piiqqvrdcsoqi5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
