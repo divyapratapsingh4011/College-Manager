@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:college_manager/widgets/profile.dart';
 import 'package:college_manager/widgets/timetable.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -44,19 +45,6 @@ class _WelcomeState extends State<Welcome> {
                   return DefaultTabController(
                     length: 2,
                     child: Scaffold(
-                      // bottomNavigationBar: BottomNavigationBar(
-                      //   backgroundColor: Theme.of(context),
-                      //   items: [
-                      //     BottomNavigationBarItem(
-                      //         icon: Icon(Icons.schedule),
-                      //         title: Text('TimeTable')),
-                      //     BottomNavigationBarItem(
-                      //         icon: Icon(Icons.person_outline),
-                      //         title: Text('Profile'))
-                      //   ],
-                      //   currentIndex: 0,
-                      //   type: BottomNavigationBarType.shifting,
-                      // ),
                       appBar: AppBar(
                         title: Text(data['name']),
                         actions: <Widget>[
@@ -86,9 +74,7 @@ class _WelcomeState extends State<Welcome> {
                         Scaffold(
                           bottomNavigationBar: TimeTableWidget(),
                         ),
-                        Center(
-                          child: Text('Profile'),
-                        )
+                        Profile(data, _user),
                       ]),
                     ),
                   );
